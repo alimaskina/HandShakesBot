@@ -4,7 +4,7 @@
 
 `git clone https://github.com/EkaterinaAlimaskina/HandShakesBot.git`  
 `cd HandShakesBot`  
-`docker run --env VK_TOKEN=<ваш токен VK API> --env TG_TOKEN=<токен вашего телеграм бота> hs_bot`  
+`docker build --env VK_TOKEN=<ваш токен VK API> --env TG_TOKEN=<токен вашего телеграм бота> hs_bot .`  
 `docker run -d hs_bot`
 
 ## Использование приложения
