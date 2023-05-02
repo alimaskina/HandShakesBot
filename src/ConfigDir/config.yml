@@ -1,0 +1,17 @@
+VK:
+  VK_VERSION: '5.131'
+
+VIEW:
+  VIEW_TYPE: 'telegram_bot'
+
+PLATFORMS: ['vk']
+
+CASH:
+  CASH_PATH: 'cash.json'
+  CASH_PERIOD: 3600
+
+COMMANDS:
+  get_common_friends: 'get_common_friends nickname1 nickname2 nickname3 ...'
+  get_friends_chain:  'get_friends_chain nickname1 nickname2'
+
+SEARCHER: 'bfs'
